@@ -1,0 +1,75 @@
+<!-- Python Turtle Graphics Course Series Header -->
+<div class="course-header">
+  {% capture course_content %}{% include python-turtle-content.md %}{% endcapture %}
+  {{ course_content | markdownify }}
+</div>
+
+<style>
+.course-header {
+  background-color: var(--global-bg-color);
+  border: 1px solid var(--global-border-color);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  color: var(--global-text-color);
+}
+
+.course-header blockquote {
+  border-left: 4px solid #2c5aa0;
+  margin: 1em 0;
+  padding-left: 1em;
+  font-style: italic;
+  background-color: var(--global-bg-color);
+  border-radius: 4px;
+  padding: 10px 15px;
+  color: var(--global-text-color);
+}
+
+.course-header h3 {
+  color: #2c5aa0;
+  margin-top: 20px;
+  border-bottom: 2px solid #2c5aa0;
+  padding-bottom: 10px;
+}
+
+.course-header h4 {
+  color: var(--global-text-color);
+  margin-top: 15px;
+}
+
+.course-header ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.course-header li {
+  margin: 8px 0;
+  padding: 5px 0;
+}
+
+.course-header a {
+  text-decoration: none;
+  color: #2c5aa0;
+  transition: color 0.3s;
+}
+
+.course-header a:hover {
+  color: #1a365d;
+  text-decoration: underline;
+}
+
+.course-header strong {
+  color: var(--global-text-color);
+  font-weight: bold;
+}
+
+.course-header em {
+  color: var(--global-text-color);
+  font-style: italic;
+}
+
+.course-header a[target="_blank"]:after {
+  content: " 🔗";
+  font-size: 0.8em;
+}
+</style>

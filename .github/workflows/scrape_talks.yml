@@ -1,0 +1,47 @@
+name: Scrape Talk Locations
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - '_talks/**'
+      - 'talkmap.ipynb'
+  workflow_dispatch: # 允許手動觸發
+
+permissions:
+  contents: write  # 需要寫入權限來 commit
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Install dependencies
+      run: |
+        pip install jupyter pandas requests beautifulsoup4 geopy
+        pip install getorg --upgrade
+
+    - name: Run Jupyter Notebook
+      run: |
+        jupyter nbconvert --to notebook --execute talkmap.ipynb --output talkmap_out.ipynb
+
+    - name: Commit changes
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add talkmap_out.ipynb
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Automated update of talk locations map"
+          git push
+        fi

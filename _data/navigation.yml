@@ -1,0 +1,39 @@
+# The following is the order of the links in the header of the website.
+#
+# Changing the order here will adjust the order and you can also add additional
+# links. Removing a link prevents it from showing in the header, but does not
+# prevent it from being included in the site.
+#
+# NOTE that only one of the CV options should be selected, the first is for the
+#      Markdown formatted page while the second is generated using JSON.
+
+main:
+  #- title: "CV"
+  - title: '<span class="nav-dual"><span class="nav-en">CV</span><span> / </span><span class="nav-zh">履歷</span></span>'
+    url: /cv/
+    
+  # - title: "CV"
+  #   url: /cv-json/
+
+  - title: '<span class="nav-dual"><span class="nav-en">Publications</span><span> / </span><span class="nav-zh">發表著作</span></span>'
+    url: /publications/
+
+  - title: '<span class="nav-dual"><span class="nav-en">Teaching</span><span> / </span><span class="nav-zh">教學</span></span>'
+    url: /teaching/
+
+  - title: '<span class="nav-dual"><span class="nav-en">Talks</span><span> / </span><span class="nav-zh">演講與服務</span></span>'
+    url: /talks/
+
+  - title: '<span class="nav-dual"><span class="nav-en">Student Supervision</span><span> / </span><span class="nav-zh">學生指導</span></span>'
+    url: /supervision/
+
+  - title: '<span class="nav-dual"><span class="nav-en">Courses</span><span> / </span><span class="nav-zh">課程</span></span>'
+    url: /courses/
+
+  - title: '<span class="nav-dual"><span class="nav-en">Portfolio</span><span> / </span><span class="nav-zh">作品集</span></span>'
+    url: /portfolio/
+
+  # - title: "Blog Posts"
+  #   url: /year-archive/
+  
+  

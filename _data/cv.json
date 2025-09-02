@@ -1,0 +1,386 @@
+{
+  "basics": {
+    "name": "賴鵬仁 Peng-Jen Lai",
+    "email": "laibird@mail.nknu.edu.tw",
+    "phone": "",
+    "website": "https://edwardlee098.github.io",
+    "summary": "國立高雄師範大學數學系賴鵬仁教授，專精於幾何學、柔性計算和數學教育與程式設計工具",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Kaohsiung, Taiwan",
+      "countryCode": "TW",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "Google Scholar",
+        "username": "",
+        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+      },
+      {
+        "network": "ORCID",
+        "username": "",
+        "url": "http://orcid.org/yourorcidurl"
+      },
+      {
+        "network": "GitHub",
+        "username": "t1673lai",
+        "url": "https://github.com/t1673lai"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "國立高雄師範大學理學院數學系",
+      "position": "教授",
+      "startDate": "2013-03",
+      "endDate": "present",
+      "summary": "Professor of Mathematics"
+    },
+    {
+      "company": "國立高雄師範大學數學系",
+      "position": "副教授",
+      "startDate": "2013-01",
+      "endDate": "2013-03",
+      "summary": "Associate Professor of Mathematics"
+    },
+    {
+      "company": "國立高雄師範大學數學系",
+      "position": "副教授",
+      "startDate": "2009-09",
+      "endDate": "2013-01",
+      "summary": "Associate Professor of Mathematics"
+    },
+    {
+      "company": "國立高雄師範大學",
+      "position": "助理教授",
+      "startDate": "1998-02",
+      "endDate": "2009-09",
+      "summary": "Assistant Professor of Mathematics"
+    },
+    {
+      "company": "國立高雄師範大學",
+      "position": "助教",
+      "startDate": "1992-08",
+      "endDate": "1994-10",
+      "summary": "Teaching Assistant"
+    },
+    {
+      "company": "國立清華大學數學系",
+      "position": "專任總助教",
+      "startDate": "1991-08",
+      "endDate": "1992-07",
+      "summary": "Full-time Chief Teaching Assistant"
+    }
+  ],
+  "education": [
+    {
+      "institution": "德國魯爾大學",
+      "area": "數學系",
+      "studyType": "博士",
+      "startDate": "1994-10",
+      "endDate": "1997-07",
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "國立清華大學",
+      "area": "數學系",
+      "studyType": "碩士",
+      "startDate": "1987-09",
+      "endDate": "1989-06",
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "國立清華大學",
+      "area": "數學系",
+      "studyType": "學士",
+      "startDate": "1983-09",
+      "endDate": "1987-06",
+      "gpa": null,
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Mathematics",
+      "level": "Expert",
+      "keywords": [
+        "Geometry 幾何學",
+        "Soft computing 柔性計算",
+        "Exploring Mathematics with Shareware 以自由軟體探索數學",
+        "數理邏輯益智遊戲與人工智能"
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "level": "Advanced",
+      "keywords": [
+        "Python",
+        "JavaScript",
+        "C",
+        "R"
+      ]
+    },
+    {
+      "name": "Mathematical Software",
+      "level": "Expert",
+      "keywords": [
+        "GeoGebra",
+        "Matlab",
+        "Maple"
+      ]
+    }
+  ],
+  "languages": [],
+  "interests": [],
+  "references": [],
+  "publications": [
+    {
+      "name": "Using heuristic algorithms to solve the scheduling problems with job-dependent and machine-dependent learning effects",
+      "publisher": "Journal of Intelligent Manufacturing",
+      "releaseDate": "2015-08-01",
+      "website": "",
+      "summary": "Volume 26, Issue 4, pp 691-701"
+    },
+    {
+      "name": "A note on single-machine scheduling with sum-of-processing-time-based learning and forgetting effects",
+      "publisher": "Applied Mathematical Modelling",
+      "releaseDate": "2015-01-01",
+      "website": "",
+      "summary": "Co-authored with Chia-Huang Wu and Wen-Chiung Lee"
+    },
+    {
+      "name": "Parallel-machine scheduling to minimize makespan with fuzzy processing times and learning effects",
+      "publisher": "Information Sciences",
+      "releaseDate": "2014-06-01",
+      "website": "",
+      "summary": "Volume 269, Pages 142–158"
+    },
+    {
+      "name": "Single-machine scheduling with accelerating deterioration effects",
+      "publisher": "Optimization Letters",
+      "releaseDate": "2014-01-01",
+      "website": "",
+      "summary": "Volume 8, Issue 2, pp 543-554"
+    },
+    {
+      "name": "Single-machine scheduling with learning and forgetting effects",
+      "publisher": "Applied Mathematical Modelling",
+      "releaseDate": "2013-03-15",
+      "website": "",
+      "summary": "Volume 37, Issue 6, Pages 4509–4516"
+    },
+    {
+      "name": "Single-machine scheduling with a logarithm deterioration function",
+      "publisher": "Optimization Letters",
+      "releaseDate": "2012-12-01",
+      "website": "",
+      "summary": "Volume 6, Issue 8, Pages 1719-1730"
+    },
+    {
+      "name": "Modified Genetic Algorithms for Solving Fuzzy Flow Shop Scheduling Problems and Their Implementation with CUDA",
+      "publisher": "Expert Systems with Applications",
+      "releaseDate": "2012-04-01",
+      "website": "",
+      "summary": "Volume 39, Pages 4999–5005"
+    },
+    {
+      "name": "Single-machine scheduling with a nonlinear deterioration function",
+      "publisher": "Information Processing Letters",
+      "releaseDate": "2010-05-01",
+      "website": "",
+      "summary": "Volume 110, Issue 11, Pages 455-459"
+    },
+    {
+      "name": "How to make fractal tilings and fractal reptiles",
+      "publisher": "Fractals",
+      "releaseDate": "2009-01-01",
+      "website": "",
+      "summary": "Volume 17, Issue 4, Pages 493-504"
+    },
+    {
+      "name": "Using ant colony optimization to minimize the fuzzy makespan and total weighted fuzzy completion time in flow shop scheduling problems",
+      "publisher": "International Journal of Uncertainty, Fuzziness and Knowledge-based Systems",
+      "releaseDate": "2009-01-01",
+      "website": "",
+      "summary": "Volume 17, No. 4, Pages 559-584"
+    },
+    {
+      "name": "Concise methods to generate fractal tilings",
+      "publisher": "International Journal of Nonlinear Sciences and Numerical Simulation",
+      "releaseDate": "2009-05-01",
+      "website": "",
+      "summary": "No. 10(5), Pages 585-594"
+    },
+    {
+      "name": "Single-machine scheduling with sum-of-logarithm-processing-times-based learning considerations",
+      "publisher": "Information Sciences",
+      "releaseDate": "2009-01-01",
+      "website": "",
+      "summary": "Volume 179, Pages 2416–2425"
+    },
+    {
+      "name": "A Comparative Study of the Monitoring Performance for Weighted Control Charts",
+      "publisher": "Journal of Statistics and Management Systems",
+      "releaseDate": "2009-01-01",
+      "website": "",
+      "summary": "Volume 12, No. 2, Pages 207-228"
+    },
+    {
+      "name": "Using Genetic Algorithms to Solve Fuzzy Flow Shop Scheduling Problems Based on Possibility and Necessity Measures",
+      "publisher": "International Journal of Uncertainty, Fuzziness and Knowledge-based Systems",
+      "releaseDate": "2008-01-01",
+      "website": "",
+      "summary": "Volume 16, No. 3, Pages 409-433"
+    }
+  ],
+  "presentations": [
+    {
+      "name": "Your Talk Title 1",
+      "event": "Conference or Institution Name",
+      "date": "2024-01-01",
+      "location": "Location, Country",
+      "description": ""
+    },
+    {
+      "name": "Your Talk Title 2",
+      "event": "Conference or Institution Name",
+      "date": "2023-01-01",
+      "location": "Location, Country",
+      "description": ""
+    }
+  ],
+  "teaching": [
+    {
+      "course": "碎形幾何 / Fractal Geometry",
+      "institution": "國立高雄師範大學數學系",
+      "date": "2025-02-01",
+      "role": "研究所課程 (114學年度)",
+      "description": "碎形幾何理論、碎形鑲嵌構造方法、數學軟體應用"
+    },
+    {
+      "course": "動態幾何 / Dynamical Geometry",
+      "institution": "國立高雄師範大學數學系",
+      "date": "2025-02-01",
+      "role": "研究所課程 (114學年度)",
+      "description": "動態幾何理論、GeoGebra應用、數位化教學設計"
+    },
+    {
+      "course": "電子計算機在教學及研究上之應用 / Computer Application in Instruction Research",
+      "institution": "國立高雄師範大學數學系",
+      "date": "2025-02-01",
+      "role": "研究所課程 (114學年度)",
+      "description": "程式設計、數學軟體應用、教育科技創新"
+    }
+  ],
+  "supervision": [
+    {
+      "student": "吳佩欣",
+      "degree": "碩士",
+      "year": "2023-06",
+      "thesis": "高雄市某國小五年級學生資訊融入幾何單元教學成效之研究"
+    },
+    {
+      "student": "施宗賢",
+      "degree": "碩士", 
+      "year": "2023-06",
+      "thesis": "利用動態幾何軟體GeoGebra引入斜率概念融入二元一次方程式及其圖形之教學研究"
+    },
+    {
+      "student": "陳彥伯",
+      "degree": "碩士",
+      "year": "2022-01",
+      "thesis": "高雄市某國中九年級學生109學年度數學科會考模擬試題作答分析之研究"
+    },
+    {
+      "student": "朱建旭",
+      "degree": "碩士",
+      "year": "2022-01", 
+      "thesis": "109學年度四技二專統一入學測驗數學科模擬試題分析之研究－以雲林縣某高中職三年級為例"
+    },
+    {
+      "student": "許正輝",
+      "degree": "碩士",
+      "year": "2021-09",
+      "thesis": "雲林縣某高中一年級多元選修課程設計與實施成效之研究"
+    },
+    {
+      "student": "江玥彤",
+      "degree": "碩士",
+      "year": "2021-06",
+      "thesis": "高雄市某高中一年級多元選修無字證明的GeoGebra教學動畫設計"
+    },
+    {
+      "student": "吳松懋",
+      "degree": "碩士",
+      "year": "2022-01",
+      "thesis": "高雄市某高中一年級學生解題歷程分析之研究─以多項式單元為例"
+    },
+    {
+      "student": "吳怡伶",
+      "degree": "碩士",
+      "year": "2021-06",
+      "thesis": "高雄市某國中三年級學生解題歷程分析之研究─以幾何素養試題為例"
+    },
+    {
+      "student": "陳嬿伊",
+      "degree": "碩士",
+      "year": "2021-06",
+      "thesis": "廣義畢氏定理之任意正多邊形幾何切割拼補方法"
+    },
+    {
+      "student": "蘇逸涵",
+      "degree": "碩士",
+      "year": "2021-06",
+      "thesis": "因材網輔助國小六年級數學領域教學學習成效之研究"
+    },
+    {
+      "student": "盧奕丞",
+      "degree": "碩士",
+      "year": "2020-06",
+      "thesis": "畢氏定理之正多邊形切割拼補方法"
+    },
+    {
+      "student": "劉怡汝",
+      "degree": "碩士",
+      "year": "2019-06",
+      "thesis": "畢氏定理幾何切割證明方法之分析與推廣"
+    },
+    {
+      "student": "江林翰",
+      "degree": "碩士",
+      "year": "2015-06",
+      "thesis": "以平行計算加速物流派車問題最佳解的搜尋"
+    },
+    {
+      "student": "黃俊元",
+      "degree": "碩士",
+      "year": "2013-06",
+      "thesis": "廣義畢氏定理的探討"
+    },
+    {
+      "student": "郭哲系",
+      "degree": "碩士",
+      "year": "2012-06",
+      "thesis": "數獨四個不同層次的解題法則"
+    },
+    {
+      "student": "莊家誠",
+      "degree": "碩士",
+      "year": "2012-06",
+      "thesis": "紙筆間的數學益智遊戲之數學內容分析"
+    }
+  ],
+  "portfolio": [
+    {
+      "name": "Your Project 1",
+      "category": "portfolio",
+      "date": "2024-01-01",
+      "url": "https://github.com/edwardlee098/project1",
+      "description": "Brief description of your project<br/><img src='/images/500x300.png'>"
+    }
+  ]
+}

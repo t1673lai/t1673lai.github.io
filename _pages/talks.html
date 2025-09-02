@@ -1,0 +1,14 @@
+---
+layout: archive
+title: "服務與演講記錄"
+permalink: /talks/
+author_profile: true
+---
+
+{% assign service_talk = site.talks | where: "title", "服務與演講記錄" | first %}
+
+{% if service_talk %}
+{{ service_talk.content }}
+{% else %}
+<p>服務與演講記錄加載中...</p>
+{% endif %}
