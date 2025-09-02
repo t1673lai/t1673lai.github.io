@@ -31,7 +31,7 @@ location: "高雄, 台灣"
 - 探究式學習與發現教學
 - 視覺化數學概念
 - 學生自主學習與協作
-- 數位工具融入數學教育
+- 數位工具融入數學探索
 
 **實務專題**
 - 設計動態幾何教學活動
@@ -41,7 +41,7 @@ location: "高雄, 台灣"
 
 教學成果
 ======
-指導學生完成多項動態幾何相關研究，包括 GeoGebra 教學應用、無字證明動畫設計等，培養學生成為數學教育創新人才。g experience 2"
+指導學生完成多項動態幾何相關研究，包括 GeoGebra 教學應用、無字證明動畫設計等，培養學生成為數學探索創新人才。g experience 2"
 collection: teaching
 type: "Workshop"
 permalink: /teaching/2015-spring-teaching-1
