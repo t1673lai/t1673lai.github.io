@@ -1,5 +1,5 @@
 ---
-title: "以 Python+NumPy+SciPy+SymPy 實作大學基礎數學"
+title: "用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 1 Python科學計算第三方庫, 原生指令, 內建模組, 外部模組"
 collection: courses
 type: "大學課程"
 permalink: /courses/python-mathematics-implementation_01
