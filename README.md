@@ -5,7 +5,7 @@ This is the personal academic website of **Peng-Jen Lai (賴鵬仁)**, Professor
 The website showcases research publications, teaching activities, student supervision, and academic portfolios.
 
 ## Website URL
-Visit the website at: [https://edwardlee098.github.io](https://edwardlee098.github.io)
+Visit the website at: [https://t1673lai.github.io](https://t1673lai.github.io)
 
 ## Local Development
 
