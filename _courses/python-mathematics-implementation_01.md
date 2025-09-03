@@ -4,7 +4,7 @@ collection: courses
 type: "大學課程"
 permalink: /courses/python-mathematics-implementation_01
 venue: "線性代數矩陣計算、微積分與數論"
-date: 2024-01-01
+date: 2025-09-01
 location: "Taiwan"
 excerpt: "用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 1 Python科學計算第三方庫, 原生指令, 內建模組, 外部模組 "
 ---

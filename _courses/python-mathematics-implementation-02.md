@@ -4,7 +4,7 @@ collection: courses
 type: "程式設計課程"
 permalink: /courses/python-mathematics-implementation-02
 venue: "線性代數矩陣計算、微積分與數論"
-date: 2024-01-01
+date: 2025-09-01
 location: "Python程式實作"
 ---
 

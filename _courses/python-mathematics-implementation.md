@@ -4,7 +4,7 @@ collection: courses
 type: "大學課程"
 permalink: /courses/python-mathematics-implementation
 venue: "線性代數矩陣計算、微積分與數論"
-date: 2024-01-01
+date: 2025-09-01
 location: "Taiwan"
 excerpt: "運用Python及其數學運算庫實作大學基礎數學，包含線性代數矩陣計算、微積分與數論等重要主題。"
 ---

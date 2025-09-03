@@ -4,7 +4,7 @@ collection: courses
 type: "程式設計課程"
 permalink: /courses/python-mathematics-implementation-06
 venue: "線性代數矩陣計算、微積分與數論"
-date: 2024-01-01
+date: 2025-09-01
 location: "Python程式實作"
 ---  
         用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 6 解線性方程組 直接法: Gauss 消去, LU 分解 等 

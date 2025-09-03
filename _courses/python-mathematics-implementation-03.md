@@ -4,7 +4,7 @@ collection: courses
 type: "程式設計課程"
 permalink: /courses/python-mathematics-implementation-03
 venue: "線性代數矩陣計算、微積分與數論"
-date: 2024-01-01
+date: 2025-09-01
 location: "Python程式實作"
 ---  
   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 3 向量與矩陣運算 
@@ -46,32 +46,26 @@ Clever B Moler, Numerical computing with Matlab
 
 ### 文章目录
 
-*   [本系列文章之連結](#_4)
-*   [執行線代的例子](#_20)
-
-*   [線性聯立方程指令求解](#_34)
-*   [Moler 的書: 2.4 排列矩陣](#Moler__24__83)
-
-*   [NumPy 排列可以用 \`np.random.permutation()\`](#NumPy__nprandompermutation_85)
-*   [Python 內建的 random 模組可以用](#Python__random__86)
-*   [產生一個排列矩陣](#_111)
-
-*   [向量(點列)之操作](#_148)
-
-*   [產生點列 \`np.arange(start, end, stride)\` ( Matlab start:stride:end)](#_nparangestart_end_stride__Matlab_startstrideend_150)
-*   [切割成共 k 個點 \`np.linspace(n, m, k)\` ( Matlab linspace(n, m, k))](#_k__nplinspacen_m_k__Matlab_linspacen_m_k_183)
-*   [3.2.4 向量內積(矩陣點乘)　 np.dot(u,v), np.vdot(u,v) (Matlab dot(u,v))](#324_%E3%80%80_npdotuv_npvdotuv_Matlab_dotuv_284)
-*   [3.2.3 向量外積　 np.cross(u,v) (Matlab cross(u,v))](#323_%E3%80%80_npcrossuv_Matlab_crossuv_294)
-*   [3.2.６ 反轉向量(或list)　(Matlab: y=wrev(x))](#32_list%E3%80%80Matlab_ywrevx_303)
-
-*   [原生 list 用 list.reverse() 反轉list](#_list__listreverse_list_324)
-*   [原生 list 或 1d 的 np.array 可以用 reversed() 反轉向量](#_list__1d__nparray__reversed__341)
-
-*   [sort 排序 list.sort(), sorted(a) (Matlab: y=wrev(x))](#sort__listsort_sorteda_Matlab_ywrevx_391)
-
-*   [a.sort() 會改變 a, 原生 list 有, np.array 也有此指令](#asort__a__list__nparray__399)
-*   [b = sorted(a) 不會改變 a, 原生 list 有, 只可用在 1d 的 np.array](#b__sorteda___a__list___1d__nparray_406)
-*   [reversed(), sorted() 都是 built-in functions](#reversed_sorted__builtin_functions_446)
+- [本系列文章之連結](#本系列文章之連結)
+- [執行線代的例子](#執行線代的例子)
+    - [文章目录](#文章目录)
+  - [線性聯立方程指令求解](#線性聯立方程指令求解)
+  - [Moler 的書: 2.4 排列矩陣](#moler-的書-24-排列矩陣)
+    - [NumPy 排列可以用 `np.random.permutation()`](#numpy-排列可以用-nprandompermutation)
+    - [Python 內建的 random 模組可以用](#python-內建的-random-模組可以用)
+    - [產生一個排列矩陣](#產生一個排列矩陣)
+  - [向量(點列)之操作](#向量點列之操作)
+    - [產生點列 `np.arange(start, end, stride)` ( Matlab start:stride:end)](#產生點列-nparangestart-end-stride--matlab-startstrideend)
+    - [切割成共 k 個點 `np.linspace(n, m, k)` ( Matlab linspace(n, m, k))](#切割成共-k-個點-nplinspacen-m-k--matlab-linspacen-m-k)
+    - [3.2.4 向量內積(矩陣點乘)　 np.dot(u,v), np.vdot(u,v) (Matlab dot(u,v))](#324-向量內積矩陣點乘-npdotuv-npvdotuv-matlab-dotuv)
+    - [3.2.3 向量外積　 np.cross(u,v) (Matlab cross(u,v))](#323-向量外積-npcrossuv-matlab-crossuv)
+    - [3.2.６ 反轉向量(或list)　(Matlab: y=wrev(x))](#32６-反轉向量或listmatlab-ywrevx)
+      - [原生 list 用 list.reverse() 反轉list](#原生-list-用-listreverse-反轉list)
+      - [原生 list 或 1d 的 np.array 可以用 reversed() 反轉向量](#原生-list-或-1d-的-nparray-可以用-reversed-反轉向量)
+    - [sort 排序 list.sort(), sorted(a) (Matlab: y=wrev(x))](#sort-排序-listsort-sorteda-matlab-ywrevx)
+      - [a.sort() 會改變 a, 原生 list 有, np.array 也有此指令](#asort-會改變-a-原生-list-有-nparray-也有此指令)
+      - [b = sorted(a) 不會改變 a, 原生 list 有, 只可用在 1d 的 np.array](#b--sorteda-不會改變-a-原生-list-有-只可用在-1d-的-nparray)
+      - [reversed(), sorted() 都是 built-in functions](#reversed-sorted-都是-built-in-functions)
 
 * * *
 
