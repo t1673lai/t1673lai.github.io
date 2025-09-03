@@ -29,19 +29,15 @@ excerpt: "運用Python及其數學運算庫實作大學基礎數學，包含線�
 拳打千遍, 身法自然
 
 ## 本教材之目錄
-- 用 Python+NumPy+SciPy 執行 Matlab 的矩陣計算 1 Python科學計算第三方庫, 原生指令, 內建模組, 外部模組 
-- 用 Python+NumPy+SciPy 執行 Matlab 的矩陣計算 2 scipy.linalg 官網完整列表 
-- 用 Python+NumPy+SciPy 執行 Matlab 的矩陣計算 3 產生 numpy 的 數組, 矩陣點乘 等 
-- 用 Python+NumPy+SciPy 執行 Matlab 的矩陣計算 4 向量與矩陣運算
-
-- 用 Python+NumPy+SciPy 執行 Matlab 的矩陣計算 5 函數向量化 function vectorized
-
-- 用 Python+NumPy+SciPy 執行 Matlab 的矩陣計算 6 矩陣特徵值等不變量計算 
-
-- 用 Python+NumPy+SciPy 執行 Matlab 的矩陣計算 7 矩陣分解的指令 
-
-- 用 Python+NumPy+SciPy 執行 Matlab 的矩陣計算 8 解線性方程組 直接法: Gauss 消去, LU 等 
-- 用 Python+NumPy+SciPy 執行 Matlab 的矩陣計算 9 解線性方程組 迭代法: Jacobi iterated,Gauss-Seidel 等  
+- 用 Python+NumPy+SciPy 執行 Matlab 的矩陣計算 1 Python科學計算第三方庫, 原生指令, 內建模組, 外部模組 [link](/courses/python-mathematics-implementation)
+- 用 Python+NumPy+SciPy 執行 Matlab 的矩陣計算 1.1 scipy.linalg 官網完整列表 [link](/courses/python-mathematics-implementation-01)
+- 用 Python+NumPy+SciPy 執行 Matlab 的矩陣計算 2 產生 numpy 的 數組, 矩陣點乘 等 [link](/courses/python-mathematics-implementation_02)
+- 用 Python+NumPy+SciPy 執行 Matlab 的矩陣計算 3 向量與矩陣運算 [link](/courses/python-mathematics-implementation_03)
+- 用 Python+NumPy+SciPy 執行 Matlab 的矩陣計算 4 函數向量化 function vectorized [link](/courses/python-mathematics-implementation_04)
+- 用 Python+NumPy+SciPy 執行 Matlab 的矩陣計算 5 矩陣特徵值等不變量計算 [link](/courses/python-mathematics-implementation_05)
+- 用 Python+NumPy+SciPy 執行 Matlab 的矩陣計算 5.1 矩陣分解的指令 [link](/courses/python-mathematics-implementation-05_1)
+- 用 Python+NumPy+SciPy 執行 Matlab 的矩陣計算 6 解線性方程組 直接法: Gauss 消去, LU 等 [link](/courses/python-mathematics-implementation_06)
+- 用 Python+NumPy+SciPy 執行 Matlab 的矩陣計算 7 解線性方程組 迭代法: Jacobi iterated,Gauss-Seidel 等 [link](/courses/python-mathematics-implementation_07)  
 
 - 用 Python+SciPy+SymPy+GeoGebra 執行微積分計算 
   
@@ -129,13 +125,13 @@ excerpt: "運用Python及其數學運算庫實作大學基礎數學，包含線�
 
 ## Python 的科學計算第三方庫最基本有: 矩陣計算 NumPy, 科學計算 SciPy, 繪圖 Matplotlib, 符號運算 SymPy 
 
-  ![numpy_scipy_matplotlib之差異](https://i-blog.csdnimg.cn/blog_migrate/c163cab2f9e07f4c5cb2318a24659f79.jpeg)
+  ![numpy_scipy_matplotlib之差異](/images/courses/python-mathematics/numpy_scipy_matplotlib.jpeg)
 **這三個第三方庫: NumPy, SciPy, Matplotlib 有何不同?**
   根據官網的 Scipy Lecture Notes 2020 版:
   NumPy 主要是提供對數組(array) 或矩陣(matrix)的指令
   SciPy 則提供較上層的科學計算的函數: 最佳化(求極大極小), 求零根, 統計, 傅立葉變換等
  **SciPy 的基本內容大項: 特殊函數、積分、最佳化、訊號處理、統計等等**
- ![scipy的基本內容大項](https://i-blog.csdnimg.cn/blog_migrate/b8579d92884c880e8bfcd828a45873fd.jpeg)
+ ![scipy的基本內容大項](/images/courses/python-mathematics/scipy_content.jpeg)
 
 Matplotlib 則支持繪圖方面, **Matplotlib.pyplot 是提供跟 Matlab 繪圖指令接近的繪圖函式庫**
 **Ref:** Scipy Lecture Notes: http://scipy-lectures.org/
@@ -207,7 +203,7 @@ chr() frozenset() list() range() vars()
 classmethod() getattr() locals() repr() zip()
 compile() globals() map() reversed() __import__()
 complex() hasattr() max() round()
-![Python38 Built-in Functions](https://i-blog.csdnimg.cn/blog_migrate/a2096848901a88f50b38db579c570a2b.jpeg)
+![Python38 Built-in Functions](/images/courses/python-mathematics/python38_builtin.jpeg)
 
 例如 **abs()** 就是取絕對值,,,
 
@@ -255,7 +251,7 @@ https://docs.python.org/3/library/math.html
 要從 Windows 開始程式集 處選取, 例如
 /python38/Module Docs
 才看的到, 其實內容是放在安裝在硬碟的檔案,
-![Python38原生的模組](https://i-blog.csdnimg.cn/blog_migrate/3a18d3f27c66d77de496039f1945baf7.jpeg)
+![Python38原生的模組](/images/courses/python-mathematics/python38_modules.jpeg)
 或是下
 `>>>help(__builtins__)`
 也可以
@@ -2845,7 +2841,7 @@ $$
 以下參考 Linear Algebra, 2Nd Edition - Kenneth Hoffmann And Ray Kunze
 我們複習橫行基本運算的定義:
 **Def**
-![row_operation_Linear Algebra, 2Nd Edition - Kenneth Hoffmann And Ray Kunze](https://i-blog.csdnimg.cn/blog_migrate/f519fb8cd1933f4799b0dc4cc6fe9855.png#pic_center)
+![row_operation_Linear Algebra, 2Nd Edition - Kenneth Hoffmann And Ray Kunze](/images/courses/python-mathematics/row_operation.png)
 就是中學教科書說的 三個基本的 row 運算 (橫行基本運算)  elementrary row operation 
 1. 對某一 row 換成, 該 row 乘上非零之常數
 2. 對某一 row 換成, 該 row 加上另一row 乘上非零之常數
@@ -2861,9 +2857,9 @@ $$
 
 則書中有簡單論證, 知道:
 **Theorem1** 兩個等價的 線性聯立方程組的解是同樣的, 
-![thm1_equivalentLinearSystem_Linear Algebra, 2Nd Edition - Kenneth Hoffmann And Ray Kunze](https://i-blog.csdnimg.cn/blog_migrate/c0a1f6553d16dc88b28936de186aa4f0.png#pic_center)
+![thm1_equivalentLinearSystem_Linear Algebra, 2Nd Edition - Kenneth Hoffmann And Ray Kunze](/images/courses/python-mathematics/equivalent_linear_system.png)
 書中接著定義了兩個矩陣是等價的含意, 就是透過有限次三個基本的 row 運算可以將其中一個矩陣轉成另一個矩陣:
-![equivalentLinearSystem_matrix, 2Nd Edition - Kenneth Hoffmann And Ray Kunze](https://i-blog.csdnimg.cn/blog_migrate/c55b84d45be8602420b116f1e12067d5.png#pic_center)
+![equivalentLinearSystem_matrix, 2Nd Edition - Kenneth Hoffmann And Ray Kunze](/images/courses/python-mathematics/matrix_system.png)
 則知道, Gauss Elimination 高斯消去法 是透過基本行列運算 將 線性聯立方程組的 $A$ 矩陣轉成一個的上三角矩陣, 這是與原矩陣等價的, 轉成上三角矩陣後, 線性聯立方程組就很好解了, 得到的解會與原解一致.
 
 ##### Exercises
@@ -4002,10 +3998,10 @@ $$ x^{(k)}=T  x^{(k-1)} + c , \text{where  } x^0 \text{ is some initial vector}.
 
 ## Jacobi iterated method
 ==以下用  GeoGebra 繪製 Jacobi iterated 流程的說明圖==, 
-![Jacobi iterated method GeoGebra 呈現](https://i-blog.csdnimg.cn/blog_migrate/945a8d138dcc3c05facee3f26e977b56.jpeg#pic_center)
+![Jacobi iterated method GeoGebra 呈現](/images/courses/python-mathematics/jacobi_geogebra1.jpeg)
 
 注意, 下圖第 2 步驟的符號有打錯, 待作者修正
-![Jacobi iterated method GeoGebra 呈現 滑桿](https://i-blog.csdnimg.cn/blog_migrate/92da6ea378ab9f2e11d6020839d6d720.jpeg#pic_center)
+![Jacobi iterated method GeoGebra 呈現 滑桿](/images/courses/python-mathematics/jacobi_geogebra2.jpeg)
 
 
 
@@ -4250,11 +4246,11 @@ Matlab, Maple, Mathematica 是付費的, 另外近年, 還有Julia 網路常介�
 GeoGebra 可以直接以滑鼠拖拉畫圖, 以滑桿功能展示**即時動態變化(動畫)**,  也有不少微積分的指令, 例如以下我用 GeoGebra 製作的積分的動態展示, 加上文字說明, 按鈕等, 同樣的效果, 如果僅是靜態圖, 用 Python+Matplotlib 的 pyplot畫, 恐怕要花上兩三倍的時間.
 而且下圖之 Geogebra 的圖是可以拖動滑桿, 改變切割區間之粗細, 動態演示的, 這種動畫效果, 如果要用 Python+Matplotlib 的 pyplot 畫呈現, 會花上更多倍時間, 且需要對 Matplotlib 有更多的了解與熟悉.
 (更正: 下圖中的說明 "長方形法" 其實是"梯形法")
-![數值積分梯形法講解用 Sequence](https://i-blog.csdnimg.cn/blog_migrate/98bf5ce1b9285b2b834af520a0a8fd15.png#pic_center)
+![數值積分梯形法講解用 Sequence](/images/courses/python-mathematics/numerical_integration.png)
 例如以下是我用 GeoGebra 製作的 微積分考卷的圖, 要呈現 Varberg 微積分那本原文教科書的某題之圖, 加上自己的設計, 用 GeoGebra 製作 3D 函數圖也很輕鬆:
-![201606光通期末考極值1](https://i-blog.csdnimg.cn/blog_migrate/bde9b2795ac39643411adf9db643395f.png#pic_center)
+![201606光通期末考極值1](/images/courses/python-mathematics/extremum_example.png)
 或, 以下是用 GeoGebra 製作的 兩變數函數 $f(x,y)=4+xy-x^2-y^2$ 侷限在單位圓上求極值, 的說明圖:
-![Varberg_P670_12.9Example5_20210413jpg](https://i-blog.csdnimg.cn/blog_migrate/698d6b94fa61aa5f75e340d9915ab4e3.jpeg#pic_center)
+![Varberg_P670_12.9Example5_20210413jpg](/images/courses/python-mathematics/varberg_example.jpeg)
 可以按右鍵, 轉動視角,
 同樣的效果, 如果僅是靜態圖, 用 pyplot, 恐怕要手忙腳亂一陣子, 3D 可能還要動用到 MayaView 等, 如果是動畫, 還得查一下 Tkinter 的指令等.
 
@@ -4377,11 +4373,11 @@ GeoGebra 可以直接以滑鼠拖拉畫圖, 以滑桿功能展示**即時動態�
 跟 GeoGebra 比起來, desmos 的功能只是 GeGebra的一小部分, 但是 desmos 似乎較會做宣傳.
 
 以下是 GeoGebra官網線上 的繪圖計算器, 可以把他想成是 GeoGebra 6 的一個特例的介面狀況
-![GeoGebra的繪圖計算器](https://i-blog.csdnimg.cn/blog_migrate/aa50446495d9a66d194cb28685542d60.jpeg#pic_center)
+![GeoGebra的繪圖計算器](/images/courses/python-mathematics/geogebra_calculator.jpeg)
 
 以下是 desmos 官網線上 的介面, 與 GeoGebra 官網 的線上繪圖計算器非常類似:
 
-![desmos 官網線上 的介面](https://i-blog.csdnimg.cn/blog_migrate/1ef547514a20c2288297e2c2acb0fb9f.jpeg#pic_center)
+![desmos 官網線上 的介面](/images/courses/python-mathematics/desmos_interface.jpeg)
 
 
 
@@ -4890,7 +4886,7 @@ plt.show()
 ```
 
 
-![Scipy Lecture Notes, 6.5 Optimization and fit_scipy.optimize_1](https://i-blog.csdnimg.cn/blog_migrate/8923b61341acd7d2a9fef57337392285.jpeg#pic_center)
+![Scipy Lecture Notes, 6.5 Optimization and fit_scipy.optimize_1](/images/courses/python-mathematics/scipy_optimize.jpeg)
 
 
 
@@ -6709,8 +6705,8 @@ https://docs.python.org/3/library/turtle.html#turtle.write [link](https://docs.p
 
  ==以下是本網誌作者自已設計的用 Python 海龜繪圖呈現 Sieve of Eratosthenes 質數篩去法的圖:==
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/9021816b966418d6932970576c033310.png)
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/473807c157329e87401d60ea8df64b59.gif#pic_center)
+![在这里插入图片描述](/images/courses/python-mathematics/python_description1.png)
+![在这里插入图片描述](/images/courses/python-mathematics/python_animation.gif)
 以下我們分數個階段帶領讀者了解程式碼的設計
 #### 先測試用 turtle 在畫布上寫下數字  `turtle.write()`
 此處用到
@@ -6748,8 +6744,8 @@ for i in range(51,80):
 ```
 
 Ex: 請同學練習, 在畫布上寫下整數 1 到 20, 1 到 10 排列在第一橫排,  11 到 20 排列在第二橫排, 大小與間隙自己調整, 使用何種字體, 與是否斜體、粗體等, 自己嘗試.
-![drawInteger_1.1_Ex_Lai.py_1](https://i-blog.csdnimg.cn/blog_migrate/fed9106e50296d5b34636c8582a32b4c.png)
-![drawInteger_1.1_Ex_Lai.py_2](https://i-blog.csdnimg.cn/blog_migrate/69b2b5530db97c926218d3a6daa57dd5.png)
+![drawInteger_1.1_Ex_Lai.py_1](/images/courses/python-mathematics/drawinteger_1_1_1.png)
+![drawInteger_1.1_Ex_Lai.py_2](/images/courses/python-mathematics/drawinteger_1_1_2.png)
 
 
   
@@ -6811,7 +6807,7 @@ move = False
 
 即使 `move=False`, 還是會偏移, 偏移量會小一些.
 
-![drawInteger_2.1_eraseByStamp_move_True會讓出字的空間_Lai](https://i-blog.csdnimg.cn/blog_migrate/7ce0b0eb8fe4840eec10af351f46c2fb.png)
+![drawInteger_2.1_eraseByStamp_move_True會讓出字的空間_Lai](/images/courses/python-mathematics/drawinteger_2_1_erase.png)
 
 
 #### 依據篩去法程式, 令 turtle 在篩去的數字蓋印, 代表刪去
@@ -6966,12 +6962,12 @@ print(primeList)
 = RESTART: D:\NEW_筆電的\網路免費軟體資料\Python教學\Python數論\turtle跑Eratosthenes\drawInteger_Eratosthenes_Lai.py
 [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199, 211, 223, 227, 229, 233, 239, 241, 251, 257, 263, 269, 271, 277, 281, 283, 293, 307, 311, 313, 317, 331, 337, 347, 349, 353, 359, 367, 373, 379, 383, 389, 397, 401, 409, 419, 421, 431, 433, 439, 443, 449, 457, 461, 463, 467, 479, 487, 491]
 ```
-![drawInteger_Eratosthenes_Lai_1](https://i-blog.csdnimg.cn/blog_migrate/78b3ee7938208cbe8996f954a843e965.png)
-![drawInteger_Eratosthenes_Lai_2](https://i-blog.csdnimg.cn/blog_migrate/d801b169e0198a9f1aaa68abcf4377f3.png)
-![drawInteger_Eratosthenes_Lai_3](https://i-blog.csdnimg.cn/blog_migrate/ed8664f6151bf26b3edde1d59014a5d2.png)
+![drawInteger_Eratosthenes_Lai_1](/images/courses/python-mathematics/eratosthenes_1.png)
+![drawInteger_Eratosthenes_Lai_2](/images/courses/python-mathematics/eratosthenes_2.png)
+![drawInteger_Eratosthenes_Lai_3](/images/courses/python-mathematics/eratosthenes_3.png)
 
-![drawInteger_Eratosthenes_Lai_4](https://i-blog.csdnimg.cn/blog_migrate/d1165cdae8c1b0482e922f2dfc77f0d8.png)
-![drawInteger_Eratosthenes_Lai_5](https://i-blog.csdnimg.cn/blog_migrate/860c1fd7d08aca98390895daefdfdd89.png)
+![drawInteger_Eratosthenes_Lai_4](/images/courses/python-mathematics/eratosthenes_4.png)
+![drawInteger_Eratosthenes_Lai_5](/images/courses/python-mathematics/eratosthenes_5.png)
 **Ex1:** 當 N 改變時, 例如 N=100, 原程式碼呈現的版面配置(數字的大小與位置)就會不適合. 後面會請同學練習, 當N=50 時 , 如何修改程式碼, 讓版面數字的排放是適當的?
 
 
@@ -7500,7 +7496,7 @@ Pyhton的整數位數在內存記憶允許之下, 真的整數幾乎無限制,
 
 ![ 用Python呈現2009年發現最大的是
 65516468355*pow(2,333333)-1
-65516468355*pow(2,333333)+1](https://i-blog.csdnimg.cn/blog_migrate/200b419630dade9edcb4b9b497aca1c5.png)
+65516468355*pow(2,333333)+1](/images/courses/python-mathematics/large_number.png)
 
 
 

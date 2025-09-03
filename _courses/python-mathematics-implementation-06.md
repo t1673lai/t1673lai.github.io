@@ -29,24 +29,24 @@ location: "Python程式實作"
 本系列文章之連結
 ========
 
-*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 1 Python科學計算第三方庫, 原生指令, 內建模組, 外部模組 [link](https://blog.csdn.net/m0_47985483/article/details/123617733)
+*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 1 Python科學計算第三方庫, 原生指令, 內建模組, 外部模組 [link](/courses/python-mathematics-implementation)
     
-*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 1.1 scipy.linalg 官網完整列表 [link](https://blog.csdn.net/m0_47985483/article/details/107158299)
+*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 1.1 scipy.linalg 官網完整列表 [link](/courses/python-mathematics-implementation-01)
     
-*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 2 產生 numpy 的 數組, 矩陣點乘 等 [link](https://blog.csdn.net/m0_47985483/article/details/111745673?spm=1001.2014.3001.5501)
+*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 2 產生 numpy 的 數組, 矩陣點乘 等 [link](/courses/python-mathematics-implementation-02)
     
-*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 3 向量與矩陣運算 [link](https://blog.csdn.net/m0_47985483/article/details/113095920?spm=1001.2014.3001.5501)
+*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 3 向量與矩陣運算 [link](/courses/python-mathematics-implementation-03)
     
 *   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 4 函數向量化 function vectorized  
-    [link](https://blog.csdn.net/m0_47985483/article/details/122241771)
+    [link](/courses/python-mathematics-implementation-04)
     
-*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 5 矩陣特徵值等不變量計算 [link](https://blog.csdn.net/m0_47985483/article/details/122667111)
+*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 5 矩陣特徵值等不變量計算 [link](/courses/python-mathematics-implementation-05)
     
-*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 5.1 矩陣分解的指令 [link](https://blog.csdn.net/m0_47985483/article/details/124607454?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22124607454%22%2C%22source%22%3A%22m0_47985483%22%7D&ctrtid=dgV5e)
+*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 5.1 矩陣分解的指令 [link](/courses/python-mathematics-implementation-05_1)
     
-*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 6 解線性方程組 直接法: Gauss 消去, LU 等 [link](https://blog.csdn.net/m0_47985483/article/details/122691113)
+*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 6 解線性方程組 直接法: Gauss 消去, LU 等 [link](/courses/python-mathematics-implementation-06)
     
-*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 7 解線性方程組 迭代法: Jacobi iterated,Gauss-Seidel 等 [link](https://blog.csdn.net/m0_47985483/article/details/122754154)
+*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 7 解線性方程組 迭代法: Jacobi iterated,Gauss-Seidel 等 [link](/courses/python-mathematics-implementation-07)
     
 
 * * *
@@ -190,7 +190,7 @@ a11′  x1+a12′  x2+a13′  x3\=b1′0  x1+a22′  x2+a23�
 以下參考 Linear Algebra, 2Nd Edition - Kenneth Hoffmann And Ray Kunze  
 我們複習橫行基本運算的定義:  
 **Def**  
-![row_operation_Linear Algebra, 2Nd Edition - Kenneth Hoffmann And Ray Kunze](https://i-blog.csdnimg.cn/blog_migrate/f519fb8cd1933f4799b0dc4cc6fe9855.png#pic_center)  
+![row_operation_Linear Algebra, 2Nd Edition - Kenneth Hoffmann And Ray Kunze](/images/courses/python-mathematics/row_operation.png)  
 就是中學教科書說的 三個基本的 row 運算 (橫行基本運算) elementrary row operation
 
 1.  對某一 row 換成, 該 row 乘上非零之常數
@@ -205,9 +205,9 @@ a11′  x1+a12′  x2+a13′  x3\=b1′0  x1+a22′  x2+a23�
 
 則書中有簡單論證, 知道:  
 **Theorem1** 兩個等價的 線性聯立方程組的解是同樣的,  
-![thm1_equivalentLinearSystem_Linear Algebra, 2Nd Edition - Kenneth Hoffmann And Ray Kunze](https://i-blog.csdnimg.cn/blog_migrate/c0a1f6553d16dc88b28936de186aa4f0.png#pic_center)  
+![thm1_equivalentLinearSystem_Linear Algebra, 2Nd Edition - Kenneth Hoffmann And Ray Kunze](/images/courses/python-mathematics/equivalent_linear_system.png)  
 書中接著定義了兩個矩陣是等價的含意, 就是透過有限次三個基本的 row 運算可以將其中一個矩陣轉成另一個矩陣:  
-![equivalentLinearSystem_matrix, 2Nd Edition - Kenneth Hoffmann And Ray Kunze](https://i-blog.csdnimg.cn/blog_migrate/c55b84d45be8602420b116f1e12067d5.png#pic_center)  
+![equivalentLinearSystem_matrix, 2Nd Edition - Kenneth Hoffmann And Ray Kunze](/images/courses/python-mathematics/matrix_system.png)  
 則知道, Gauss Elimination 高斯消去法 是透過基本行列運算 將 線性聯立方程組的 AAA 矩陣轉成一個的上三角矩陣, 這是與原矩陣等價的, 轉成上三角矩陣後, 線性聯立方程組就很好解了, 得到的解會與原解一致.
 
 #### Exercises

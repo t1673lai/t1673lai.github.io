@@ -2,7 +2,7 @@
 title: "用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 1 Python科學計算第三方庫, 原生指令, 內建模組, 外部模組"
 collection: courses
 type: "大學課程"
-permalink: /courses/python-mathematics-implementation_01
+permalink: /courses/python-mathematics-implementation-01
 venue: "線性代數矩陣計算、微積分與數論"
 date: 2025-09-01
 location: "Taiwan"
@@ -35,24 +35,24 @@ excerpt: "用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 1 Python科學計
 本系列文章之連結
 ========
 
-*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 1 Python科學計算第三方庫, 原生指令, 內建模組, 外部模組 [link](https://editor.csdn.net/md/?articleId=107158299)
+*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 1 Python科學計算第三方庫, 原生指令, 內建模組, 外部模組 [link](/courses/python-mathematics-implementation)
     
-*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 1.1 scipy.linalg 官網完整列表 [link](https://blog.csdn.net/m0_47985483/article/details/107158299)
+*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 1.1 scipy.linalg 官網完整列表 [link](/courses/python-mathematics-implementation-01)
     
-*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 2 產生 numpy 的 數組, 矩陣點乘 等 [link](https://blog.csdn.net/m0_47985483/article/details/111745673?spm=1001.2014.3001.5501)
+*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 2 產生 numpy 的 數組, 矩陣點乘 等 [link](/courses/python-mathematics-implementation-02)
     
-*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 3 向量與矩陣運算 [link](https://blog.csdn.net/m0_47985483/article/details/113095920?spm=1001.2014.3001.5501)
+*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 3 向量與矩陣運算 [link](/courses/python-mathematics-implementation-03)
     
 *   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 4 函數向量化 function vectorized  
-    [link](https://blog.csdn.net/m0_47985483/article/details/122241771)
+    [link](/courses/python-mathematics-implementation-04)
     
-*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 5 矩陣特徵值等不變量計算 [link](https://blog.csdn.net/m0_47985483/article/details/122667111)
+*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 5 矩陣特徵值等不變量計算 [link](/courses/python-mathematics-implementation-05)
     
-*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 5.1 矩陣分解的指令 [link](https://blog.csdn.net/m0_47985483/article/details/124607454?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22124607454%22%2C%22source%22%3A%22m0_47985483%22%7D&ctrtid=dgV5e)
+*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 5.1 矩陣分解的指令 [link](/courses/python-mathematics-implementation-05_1)
     
-*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 6 解線性方程組 直接法: Gauss 消去, LU 等 [link](https://blog.csdn.net/m0_47985483/article/details/122691113)
+*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 6 解線性方程組 直接法: Gauss 消去, LU 等 [link](/courses/python-mathematics-implementation-06)
     
-*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 7 解線性方程組 迭代法: Jacobi iterated,Gauss-Seidel 等 [link](https://blog.csdn.net/m0_47985483/article/details/122754154)
+*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 7 解線性方程組 迭代法: Jacobi iterated,Gauss-Seidel 等 [link](/courses/python-mathematics-implementation-07)
     
 
 * * *
@@ -137,13 +137,13 @@ https://blog.csdn.net/m0\_47985483/article/details/109522858 [link](https://blog
 Python 的科學計算第三方庫最基本有: 矩陣計算 NumPy, 科學計算 SciPy, 繪圖 Matplotlib, 符號運算 SymPy
 =======================================================================
 
-![numpy_scipy_matplotlib之差異](https://i-blog.csdnimg.cn/blog_migrate/c163cab2f9e07f4c5cb2318a24659f79.jpeg)  
+![numpy_scipy_matplotlib之差異](/images/courses/python-mathematics/numpy_scipy_matplotlib.jpeg)  
 **這三個第三方庫: NumPy, SciPy, Matplotlib 有何不同?**  
 根據官網的 Scipy Lecture Notes 2020 版:  
 NumPy 主要是提供對數組(array) 或矩陣(matrix)的指令  
 SciPy 則提供較上層的科學計算的函數: 最佳化(求極大極小), 求零根, 統計, 傅立葉變換等  
 **SciPy 的基本內容大項: 特殊函數、積分、最佳化、訊號處理、統計等等**  
-![scipy的基本內容大項](https://i-blog.csdnimg.cn/blog_migrate/b8579d92884c880e8bfcd828a45873fd.jpeg)
+![scipy的基本內容大項](/images/courses/python-mathematics/scipy_content.jpeg)
 
 Matplotlib 則支持繪圖方面, **Matplotlib.pyplot 是提供跟 Matlab 繪圖指令接近的繪圖函式庫**  
 **Ref:** Scipy Lecture Notes: http://scipy-lectures.org/  
@@ -223,7 +223,6 @@ chr() frozenset() list() range() vars()
 classmethod() getattr() locals() repr() zip()  
 compile() globals() map() reversed() **import**()  
 complex() hasattr() max() round()  
-![Python38 Built-in Functions](https://i-blog.csdnimg.cn/blog_migrate/a2096848901a88f50b38db579c570a2b.jpeg)
 
 例如 **abs()** 就是取絕對值,
 
@@ -271,7 +270,6 @@ https://docs.python.org/3/library/math.html
 要從 Windows 開始程式集 處選取, 例如  
 /python38/Module Docs  
 才看的到, 其實內容是放在安裝在硬碟的檔案,  
-![Python38原生的模組](https://i-blog.csdnimg.cn/blog_migrate/3a18d3f27c66d77de496039f1945baf7.jpeg)  
 或是下  
 `>>>help(__builtins__)`  
 也可以

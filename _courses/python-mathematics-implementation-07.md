@@ -29,22 +29,22 @@ location: "Python程式實作"
 本系列文章之連結
 ========
 
-*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 1 Python科學計算第三方庫, 原生指令, 內建模組, 外部模組 [link](https://blog.csdn.net/m0_47985483/article/details/123617733)
+*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 1 Python科學計算第三方庫, 原生指令, 內建模組, 外部模組 [link](/courses/python-mathematics-implementation)
     
-*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 1.1 scipy.linalg 官網完整列表 [link](https://blog.csdn.net/m0_47985483/article/details/107158299)
+*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 1.1 scipy.linalg 官網完整列表 [link](/courses/python-mathematics-implementation-01)
     
-*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 2 產生 numpy 的 數組, 矩陣點乘 等 [link](https://blog.csdn.net/m0_47985483/article/details/111745673?spm=1001.2014.3001.5501)
+*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 2 產生 numpy 的 數組, 矩陣點乘 等 [link](/courses/python-mathematics-implementation_02)
     
-*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 3 向量與矩陣運算 [link](https://blog.csdn.net/m0_47985483/article/details/113095920?spm=1001.2014.3001.5501)
+*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 3 向量與矩陣運算 [link](/courses/python-mathematics-implementation_03)
     
 *   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 4 函數向量化 function vectorized  
-    [link](https://blog.csdn.net/m0_47985483/article/details/122241771)
+    [link](/courses/python-mathematics-implementation_04)
     
-*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 5 矩陣特徵值等不變量計算 [link](https://blog.csdn.net/m0_47985483/article/details/122667111)
+*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 5 矩陣特徵值等不變量計算 [link](/courses/python-mathematics-implementation_05)
     
-*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 6 解線性方程組 直接法: Gauss 消去, LU 等 [link](https://blog.csdn.net/m0_47985483/article/details/122691113)
+*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 6 解線性方程組 直接法: Gauss 消去, LU 等 [link](/courses/python-mathematics-implementation_06)
     
-*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 7 解線性方程組 迭代法: Jacobi iterated,Gauss-Seidel 等 [link](https://blog.csdn.net/m0_47985483/article/details/122754154)
+*   用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 7 解線性方程組 迭代法: Jacobi iterated,Gauss-Seidel 等 [link](/courses/python-mathematics-implementation_07)
     
 
 * * *
@@ -78,10 +78,10 @@ Jacobi iterated method
 ======================
 
 以下用 GeoGebra 繪製 Jacobi iterated 流程的說明圖,  
-![Jacobi iterated method GeoGebra 呈現](https://i-blog.csdnimg.cn/blog_migrate/945a8d138dcc3c05facee3f26e977b56.jpeg#pic_center)
+![Jacobi iterated method GeoGebra 呈現](/images/courses/python-mathematics/jacobi_geogebra1.jpeg)
 
 注意, 下圖第 2 步驟的符號有打錯, 待作者修正  
-![Jacobi iterated method GeoGebra 呈現 滑桿](https://i-blog.csdnimg.cn/blog_migrate/92da6ea378ab9f2e11d6020839d6d720.jpeg#pic_center)
+![Jacobi iterated method GeoGebra 呈現 滑桿](/images/courses/python-mathematics/jacobi_geogebra2.jpeg)
 
 我們先參考 codesansar 站的 程式碼
 
