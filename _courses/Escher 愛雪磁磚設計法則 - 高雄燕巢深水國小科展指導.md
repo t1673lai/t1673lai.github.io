@@ -3,7 +3,7 @@
 title: "Escher 愛雪磁磚設計法則 - 高雄燕巢深水國小科展指導"
 collection: courses
 type: "大學課程"
-permalink: /courses/python-mathematics-implementation-01
+permalink: /courses/Escher 愛雪磁磚設計法則 - 高雄燕巢深水國小科展指導
 venue: "動態幾何軟體GeoGebra, 幾何學"
 date: 2025-09-01
 location: "Taiwan"
