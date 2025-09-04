@@ -44,11 +44,11 @@ Clever B Moler, Numerical computing with Matlab
 
 * * *
 
-### 文章目录
+### 文章目錄
 
 - [本系列文章之連結](#本系列文章之連結)
 - [執行線代的例子](#執行線代的例子)
-    - [文章目录](#文章目录)
+    - [文章目錄](#文章目錄)
   - [線性聯立方程指令求解](#線性聯立方程指令求解)
   - [Moler 的書: 2.4 排列矩陣](#moler-的書-24-排列矩陣)
     - [NumPy 排列可以用 `np.random.permutation()`](#numpy-排列可以用-nprandompermutation)

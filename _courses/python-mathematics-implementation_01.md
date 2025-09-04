@@ -57,10 +57,10 @@ excerpt: "用 Python+Numpy+scipy 執行 Matlab 的矩陣計算 1 Python科學計
 
 *  
 
-### 文章目录
+### 文章目錄
 
 - [本系列文章之連結](#本系列文章之連結)
-    - [文章目录](#文章目录)
+    - [文章目錄](#文章目錄)
 - [以下企圖將我原先用 Matlab 跑的有關矩陣(線性代數)的操作, 轉成用 Python + NumPy + SciPy 來執行,](#以下企圖將我原先用-matlab-跑的有關矩陣線性代數的操作-轉成用-python--numpy--scipy-來執行)
 - [緣起:](#緣起)
 - [Python 的科學計算第三方庫最基本有: 矩陣計算 NumPy, 科學計算 SciPy, 繪圖 Matplotlib, 符號運算 SymPy](#python-的科學計算第三方庫最基本有-矩陣計算-numpy-科學計算-scipy-繪圖-matplotlib-符號運算-sympy)

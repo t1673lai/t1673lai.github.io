@@ -56,10 +56,10 @@ location: "Python程式實作"
 
 * * *
 
-### 文章目录
+### 文章目錄
 
 - [本系列文章之連結](#本系列文章之連結)
-    - [文章目录](#文章目录)
+    - [文章目錄](#文章目錄)
 - [Numpy 與 Matlab 的矩陣分解的指令](#numpy-與-matlab-的矩陣分解的指令)
 - [scipy.linalg 中有關矩陣分解的指令](#scipylinalg-中有關矩陣分解的指令)
 - [References](#references)
