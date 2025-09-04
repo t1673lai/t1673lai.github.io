@@ -522,7 +522,7 @@ for i in range(25):
 
 ```
 再增加蓋印的動作  T.stamp()
-![turtle放射直線蓋印](/images/courses/python-turtle/55-turtle-radial-lines-stamped.jpg)
+![turtle放射直線蓋印](/images/courses/python-turtle/51-turtle-radial-lines-stamp.jpg)
 
 ```python
 # By Prof. P-J Lai 20201109
@@ -551,7 +551,7 @@ for i in range(25):
 增加每小步蓋一個 dot()
 turtle放射直線_dot_彩色串珠_蓋印.py
 以下是執行到中間步驟的圖
-![turtle放射直線_dot_彩色串珠_蓋印](/images/courses/python-turtle/56-turtle-radial-lines-dots-stamped.jpg)
+![turtle放射直線_dot_彩色串珠_蓋印](/images/courses/python-turtle/52-turtle-radial-lines-dot-beads.jpg)
 
 
 ```python
@@ -586,7 +586,7 @@ for i in range(25):
 #### 放射折線
 先試做還沒蓋印的放射**折**線
 
-![在这里插入图片描述](/images/courses/python-turtle/51-turtle-radial-bent-lines.jpg)
+![在这里插入图片描述](/images/courses/python-turtle/53-radial-zigzag-lines.jpg)
 codes:
 ```python
 # By Prof. P-J Lai 20201109
@@ -621,7 +621,7 @@ for i in range(16):
 在上面的基礎增加蓋印的動作, 
 試做蓋印的放射折線
 
-![在这里插入图片描述](/images/courses/python-turtle/52-turtle-stamped-radial-lines.jpg)
+![在这里插入图片描述](/images/courses/python-turtle/54-radial-zigzag-lines-stamp.jpg)
 
 ```python
 # By Prof. P-J Lai 20201109
@@ -655,7 +655,7 @@ for i in range(16):
 ```
 
 數量增加為 25 個放射狀海龜蓋印
-![在这里插入图片描述](/images/courses/python-turtle/53-25-radial-stamped-turtles.jpg)
+![在这里插入图片描述](/images/courses/python-turtle/55-radial-zigzag-25-turtles.jpg)
 
 以上程式碼中有所謂的 **魔術數字**，就是以下 **16**　這個數字,
 
@@ -679,7 +679,7 @@ T.rt(360/16)
 ` T.lt(random.choice([0,90,180,270]))`
 使海龜每次都隨機選擇上,下, 左, 右前進.
 
-![random lines_隨機漫步_4方_1000步_10步長](/images/courses/python-turtle/54-random-walk-4-directions.jpg)
+![random lines_隨機漫步_4方_1000步_10步長](/images/courses/python-turtle/56-random-walk-4-directions.jpg)
 
 ```python
 # Ref: A Guide to the TurtleGraphics Package for R_入門例子
@@ -721,7 +721,7 @@ https://www.youtube.com/watch?v=KWhnilgKM1M  [link](https://www.youtube.com/watc
 
 裏 模擬 starfield 星際大戰的光速飛行場景
 
-![模擬 starfield 星際大戰的光速飛行場景](/images/courses/python-turtle/57-starfield-star-wars-scene.jpg)
+![模擬 starfield 星際大戰的光速飛行場景](/images/courses/python-turtle/57-starfield-simulation.jpg)
 
 **Project:** 請同學嘗試用 Pyhton 模擬 starfield 星際大戰的光速飛行場, 
 
