@@ -77,8 +77,7 @@ layout: default
       </section>
 
       <!-- 文章時間信息 -->
-      {% unless page.url == "/" %}
-      <div class="page__timestamps" style="margin-top: 2em; padding-top: 1em; border-top: 1px solid #e9ecef; font-size: 0.875em; color: #6c757d;">
+      <div class="page__timestamps" style="margin-top: 2em; padding-top: 1em; font-size: 0.875em; color: #6c757d;">
         {% if page.date %}
           <div style="margin-bottom: 0.5em;">
             <i class="fas fa-upload" aria-hidden="true"></i>
@@ -108,7 +107,6 @@ layout: default
           {% endif %}
         {% endunless %}
       </div>
-      {% endunless %}
       </div>
 
       <footer class="page__meta">
