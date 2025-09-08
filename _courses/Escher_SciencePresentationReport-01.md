@@ -1,5 +1,5 @@
 ---
-title: "Escher_SciencePresentationReport-01"
+title: "Escher 愛雪磁磚設計法則 - 高雄燕巢深水國小科展指導"
 collection: courses
 type: "大學課程"
 permalink: /courses/Escher_SciencePresentationReport-01
