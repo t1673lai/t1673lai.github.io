@@ -67,12 +67,12 @@ excerpt: "Escher 愛雪磁磚設計法則 - 高雄燕巢深水國小科展指導
 以下是高師大數學系幾何學課, 李世裕同學幾何學報告設計的鬥魚磁磚, 使用了愛雪的平移與滑動反射法(平移反射法)設計法則
 
 高師大數學系李世裕同學幾何學報告_鬥魚磁磚_原形圖
-![高師大數學系李世裕同學幾何學報告_鬥魚磁磚_原形圖](https://i-blog.csdnimg.cn/blog_migrate/9bc0f1426565f0aafc08c6d1f99403ce.png)
+![高師大數學系李世裕同學幾何學報告_鬥魚磁磚_原形圖](images/courses/Shih-YuLee_1.jpg)
 
 高師大數學系李世裕同學幾何學報告_鬥魚磁磚_完成圖
 
 
-![高師大數學系李世裕同學幾何學報告_鬥魚磁磚_完成圖](https://i-blog.csdnimg.cn/blog_migrate/f14228a395514f3ed7981d87d4f88c92.jpeg)
+![高師大數學系李世裕同學幾何學報告_鬥魚磁磚_完成圖](images/courses/Shih-YuLee_2.jpg)
 
 
 
